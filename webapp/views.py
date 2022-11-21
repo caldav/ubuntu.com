@@ -891,7 +891,7 @@ def marketo_submit():
 
         return (
             flask.jsonify(
-                {"error": "There was an issue submitting the form."}
+                {"error": "There was an issue submitting the forms."}
             ),
             400,
         )
